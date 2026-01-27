@@ -2,7 +2,7 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO Krappa322/arcdps_unofficial_extras_releases
+    REPO jackpoz/arcdps_unofficial_extras_releases
     REF 2d95a06557e43d2b7c5ff29ed3eb34027af3fea5
     SHA512 cbfbf7ee9fe377c0f01a4a5922aab34490088ece52656cd6eeee04041dac9235da452745162ac461d2bb2edc49cb27c2934e7c5101d46fc49f62ae3ac5cb518f
     HEAD_REF master
