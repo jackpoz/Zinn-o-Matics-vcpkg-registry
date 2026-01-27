@@ -2,5 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
   "name": "crossplatformmocks",
   "version": "1.0.0",
-  "dependencies": []
+  "dependencies": [
+	{
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+	{
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
 }
