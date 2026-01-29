@@ -43,7 +43,7 @@ sed -i -E "s/(.* SHA512 )(.*)/\1${sha512}/" $portfile
 
 #- commit changes
 git add "$portfile"
-git commit -m "updated $portName port"
+git commit -m "Update $portName port"
 
 #- get commit rev of folder
 rev=$(git rev-parse "HEAD:ports/$portName/")
@@ -57,6 +57,6 @@ rm "$versionFileTmp"
 
 #- commit
 git add "$versionFile"
-git commit -m "updated $portName version"
+git commit -m "Update $portName version"
 
 echo "updated and commited port and version"
