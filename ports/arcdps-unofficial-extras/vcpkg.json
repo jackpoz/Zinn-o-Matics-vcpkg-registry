@@ -3,14 +3,15 @@
   "name": "arcdps-unofficial-extras",
   "version-string": "1.28.1",
   "dependencies": [
-	{
-      "name": "vcpkg-cmake",
-      "host": true
+	  {
+        "name": "vcpkg-cmake",
+        "host": true
     },
-	{
-      "name": "vcpkg-cmake-config",
-      "host": true
-    }
+	  {
+        "name": "vcpkg-cmake-config",
+        "host": true
+    },
+    "crossplatformmocks"
   ],
   "default-features": [
     "magic-enum"
